@@ -1,0 +1,67 @@
+stack - 
+heap - objects and fields (data goes away when the program stops running)
+files - persistent data store
+database 
+	realtional database
+realtional DB vs OO Data Orginazation
+	tables vs Classes
+	column/fields vs fields
+	rows(records) vs objects
+
+Menu for a diner
+Orange Juice - 1.99
+Pancakes (small) - 3.99
+Pancakes (large) - 4.99
+
+
+---------------------------------
+|	Name	|	price	|
+----------------|---------------|
+|OrangeJuice	|1.99		|
+|		|		|
+|pancakes       |3.99           |
+|               |		|
+|pancakes       |4.99		|
+---------------------------------
+
+entitiy realtionship diagram
+
+entity - 'things' that can be uniquely identified
+
+entity set/type - collection of entities 
+
+attributes - properties of the entities
+
+relationships - between entity types (between tables)
+
+	
+-----------------|
+|  menu_items    |
+-----------------|
+|Pk	|menu_item.id|
+|	|	 |
+|	|	 |
+------------------
+|name : String   | 
+|price : int	 |
+| 		 |
+------------------
+
+C - create new records
+R - read data from existing records
+U - update data in existing records
+D - delete data no longer needed
+
+SQL - Structured Query Language
+
+
+realtionships between data tables are called "arities"
+tool to link datab tables is called a 'join'
+
+object-relational impedence mismatch (object oriented and relational databases
+look at the data differently, so its challenging to have them talk to each other.)
+
+foreign key
+join table ( many to many ) 
+composite primary key - grouping a few keys together to create a primary key
+
